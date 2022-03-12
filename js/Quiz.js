@@ -56,19 +56,19 @@ class Quiz {
         //   fill("red");
         // }
 
-        // if (correctAns === allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
-
          if (correctAns === allContestants[plr].answer){
-            fill("red")
+           fill("Green")
          }
-        else{
-            fill("green");
-        }
+         else{
+           fill("red");
+         }
+
+        // if (correctAns === allContestants[plr].answer){
+        //    fill("red")
+        // }
+        //else{
+        //    fill("green");
+        //}
 
         // if (correctAns = allContestants[plr].answer){
         //   fill("Green")
